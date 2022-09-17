@@ -60,16 +60,16 @@ with st.sidebar:
 
 
 if selected == 'Abstract':
-    
-	st.title('Abstract')
-	st.image("Trading Floor.png", caption='A typical working scenario on the trading floor. Source: https://i-itm.com/5-things-to-know-before-the-stock-market-opens-wednesday/')
+	
+    st.title('Abstract')
+    st.image("Trading Floor.png", caption='A typical working scenario on the trading floor. Source: https://i-itm.com/5-things-to-know-before-the-stock-market-opens-wednesday/')
                    
-        st.markdown('As stock markets around the world continues to expand, undoubtfully that great quantities of investors got themselves involved in the business, ranging from hedge funds to individual stock traders. In this case study, we\'re going to analyze airline stocks based on two aspects: financial performance and return on investment, namely evaluating the firms\' cash ratio, current ratio, as well as the volatility and relative price strength of their stocks\' market performance. At the end of this case study, we\'ll come to a conclusion of the top stock to invest in for the year 2016 in the U.S S&P 500 index.')
-        st.markdown('')
-	st.markdown('')
-	st.markdown('')
-	st.markdown('')
-	st.caption('Author: Kevin Yuxin Wang')
+    st.markdown('As stock markets around the world continues to expand, undoubtfully that great quantities of investors got themselves involved in the business, ranging from hedge funds to individual stock traders. In this case study, we\'re going to analyze airline stocks based on two aspects: financial performance and return on investment, namely evaluating the firms\' cash ratio, current ratio, as well as the volatility and relative price strength of their stocks\' market performance. At the end of this case study, we\'ll come to a conclusion of the top stock to invest in for the year 2016 in the U.S S&P 500 index.')
+    st.markdown('')
+    st.markdown('')
+    st.markdown('')
+    st.markdown('')
+    st.caption('Author: Kevin Yuxin Wang')
 
 
 if selected == 'Background Information':
