@@ -1,0 +1,6 @@
+streamlit==1.12.2
+pandas==1.4.4
+numpy==1.23.3
+pandas-profiling==3.3.0
+plotly_express==0.4.1
+streamlit-option-menu==0.3.2
