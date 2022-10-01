@@ -298,7 +298,7 @@ if selected == 'Conclusion':
             return None
         return r.json()
      lottie_coding = load_lottieurl("https://assets6.lottiefiles.com/packages/lf20_qp1q7mct.json")
-st_lottie(
+     st_lottie(
 		lottie_coding,
 		speed=1,
 		reverse=False,
@@ -309,8 +309,8 @@ st_lottie(
 		key=None,
 		)
 	
-st.markdown('In terms of financial performance, American Airline Group Inc.(with ticker symbol AAL) ranks top in both our cash ratio and current ratio analysis by a decent margin, with 74 and 0.92 respectively, indicating the firm\'s relatively outstanding ability in terms of liquidity in the airline industry, which could be potentially an indicator for sustained high performances in the stock market. While in terms of return on investment, ALK would also be our top investment option due to its relatively stable performance in the stock market and low investment risk, with a standard deviation of its stock prices of 0.92 and a relative price strength of 2.102004(outperforming the market by 1.102004).')
-st.markdown('Therefore, American Airline Group Inc. would be our top airline stock to invest in the S&P 500 index in the year 2016.')
+     st.markdown('In terms of financial performance, American Airline Group Inc.(with ticker symbol AAL) ranks top in both our cash ratio and current ratio analysis by a decent margin, with 74 and 0.92 respectively, indicating the firm\'s relatively outstanding ability in terms of liquidity in the airline industry, which could be potentially an indicator for sustained high performances in the stock market. While in terms of return on investment, ALK would also be our top investment option due to its relatively stable performance in the stock market and low investment risk, with a standard deviation of its stock prices of 0.92 and a relative price strength of 2.102004(outperforming the market by 1.102004).')
+     st.markdown('Therefore, American Airline Group Inc. would be our top airline stock to invest in the S&P 500 index in the year 2016.')
     
     
 if selected == 'Bibliography':
