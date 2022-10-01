@@ -215,11 +215,8 @@ if selected == 'Data Analysis':
     # Removing the '_close' part from every legend variable to make the data more 
     # presentable
     newnames = {'AAL_close':'AAL', 'ALK_close':'ALK', 'DAL_close':'DAL', 'LUV_close':'LUV', 'UAL_close':'UAL'}
-    volatility_line.for_each_trace(lambda t: t.update(name = newnames[t.name],
-                                      legendgroup = newnames[t.name],
-                                      hovertemplate = t.hovertemplate.replace(t.name, newnames[t.name])
-                                     )
-                  )
+    volatility_line.for_each_trace(lambda t: t.update(name = newnames[t.name],legendgroup = newnames[t.name],hovertemplate = t.hovertemplate.replace(t.name, newnames[t.name])))
+                                     
    volatility_line.update_xaxes(showgrid=True, gridwidth=1, gridcolor='Black')
    volatility_line.update_yaxes(showgrid=True, gridwidth=1, gridcolor='Black')
    st.plotly_chart(volatility_line)
