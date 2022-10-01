@@ -106,7 +106,7 @@ if selected == 'Background Information':
     
 if selected == 'Data Cleaning':
     
-	st.title('Data Cleaning')
+    st.title('Data Cleaning')
     st.header('First Dataset')
     st.markdown('To start off our data cleaning process, we will remove unnecessary elements in the column title of the \'fundamentals.csv\' dataset.')
     st.code('cleaned_columns = [column.replace(\'\'\', \'\').replace(\'.\', \'\').replace(\' \', \'_\').replace(\'-\', \'_\').replace(\'/\', \'_\').lower() for column in fundamentals.columns]\', language='Python')
