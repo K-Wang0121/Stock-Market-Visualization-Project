@@ -90,7 +90,7 @@ if selected == 'Background Information':
     st.header('Original Datasets')
     st.subheader('Context')
     st.markdown('The three datasets that is going to be analyzed in this stock market case study is: \'fundamentals.csv\', \'prices.csv\', and \'securities.csv\', which are all collected from https://www.kaggle.com/datasets/dgawlik/nyse. Furthermore, the datasets as mentioned previously consists of fundamental data of the S&P 500 companies, along with their historical prices on the stock market.')
-    st.markdown('Specifically, the \'prices.csv\' dataset mainly consists of daily trading information spanning from 2010 - 2016 for the majority of the firms, as shown below:)
+    st.markdown('Specifically, the \'prices.csv\' dataset mainly consists of daily trading information spanning from 2010 - 2016 for the majority of the firms, as shown below:')
     st.caption('Click on the expand key to zoom in')
     st.write(prices)
     
