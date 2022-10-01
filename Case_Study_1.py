@@ -217,10 +217,10 @@ if selected == 'Data Analysis':
     newnames = {'AAL_close':'AAL', 'ALK_close':'ALK', 'DAL_close':'DAL', 'LUV_close':'LUV', 'UAL_close':'UAL'}
     volatility_line.for_each_trace(lambda t: t.update(name = newnames[t.name],legendgroup = newnames[t.name],hovertemplate = t.hovertemplate.replace(t.name, newnames[t.name])))
                                      
-	volatility_line.update_xaxes(showgrid=True, gridwidth=1, gridcolor='Black')
-	volatility_line.update_yaxes(showgrid=True, gridwidth=1, gridcolor='Black')
-	st.plotly_chart(volatility_line)
-	st.markdown('As shown on the line graph above, in terms of volatility, we would definitely not invest in the airline firm ALK due to its various large drops as in the year 2012 and 2014; Also, the company ALK pertains a high frequency of approximate 10 dollar drops regarding its closing prices over the time span of 2010-2016 as compared to its competitors, which demonstrates the stock\'s liability to change rapidly and unpredictably, as well as the high risk the investment accompanies. On the other hand, the other four airline stocks seems to be showing a relatively stable upwards trend, with only one to two approximate 10 dollar drops during the year 2015.') 
+    volatility_line.update_xaxes(showgrid=True, gridwidth=1, gridcolor='Black')
+    volatility_line.update_yaxes(showgrid=True, gridwidth=1, gridcolor='Black')
+    st.plotly_chart(volatility_line)
+    st.markdown('As shown on the line graph above, in terms of volatility, we would definitely not invest in the airline firm ALK due to its various large drops as in the year 2012 and 2014; Also, the company ALK pertains a high frequency of approximate 10 dollar drops regarding its closing prices over the time span of 2010-2016 as compared to its competitors, which demonstrates the stock\'s liability to change rapidly and unpredictably, as well as the high risk the investment accompanies. On the other hand, the other four airline stocks seems to be showing a relatively stable upwards trend, with only one to two approximate 10 dollar drops during the year 2015.') 
 
    # In order to calculate the volatility of stock prices:
    # 1. Find the mean of the closing prices and assigning the corresponding values to 
