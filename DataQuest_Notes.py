@@ -32,7 +32,7 @@ pd.options.plotting.backend = "plotly"
 fundamentals = pd.read_csv('fundamentals.csv')
 cleaned_columns = [column.replace('\'', '').replace('.', '').replace(' ', '_').replace('-', '_').replace('/', '_').lower() for column in fundamentals.columns]
 fundamentals.columns = cleaned_columns
-prices = pd.read_csv('prices.csv')
+prices = pd.read_csv('prices1.csv')
 securities = pd.read_csv('securities.csv')
 combined = fundamentals.merge(securities, on='ticker_symbol').copy()
 combined = combined[combined['period_ending'] == '2015-12-31']
