@@ -29,7 +29,7 @@ import requests
 from streamlit_lottie import st_lottie
 pd.options.plotting.backend = "plotly" 
 
-fundamentals = pd.read_csv('/Users/kevin/Desktop/Data Science Projects/fundamentals.csv')
+fundamentals = pd.read_csv('fundamentals.csv')
 cleaned_columns = [column.replace('\'', '').replace('.', '').replace(' ', '_').replace('-', '_').replace('/', '_').lower() for column in fundamentals.columns]
 fundamentals.columns = cleaned_columns
 prices = pd.read_csv('prices.csv')
