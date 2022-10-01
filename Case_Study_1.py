@@ -134,10 +134,10 @@ if selected == 'Data Cleaning':
 
 if selected == 'Exploratory Analysis':
     
-	st.title('Exploratory Analysis')
+    st.title('Exploratory Analysis')
     st.subheader('With Pandas Profiling')
     profile1 = ProfileReport(airlines_2015)
-	st_profile_report(profile1)
+    st_profile_report(profile1)
     
     profile2=ProfileReport(all_prices)
     st_profile_report(profile2)
