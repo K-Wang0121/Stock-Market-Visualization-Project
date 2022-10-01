@@ -109,7 +109,7 @@ if selected == 'Data Cleaning':
     st.title('Data Cleaning')
     st.header('First Dataset')
     st.markdown('To start off our data cleaning process, we will remove unnecessary elements in the column title of the \'fundamentals.csv\' dataset.')
-    st.code('cleaned_columns = [column.replace(\'\'\', \'\').replace(\'.\', \'\').replace(\' \', \'_\').replace(\'-\', \'_\').replace(\'/\', \'_\').lower() for column in fundamentals.columns]\', language='python')
+    st.code('cleaned_columns = [column.replace(\'\'\', \'\').replace(\'.\', \'\').replace(\' \', \'_\').replace(\'-\', \'_\').replace(\'/\', \'_\').lower() for column in fundamentals.columns]\', language="python")
     fundamentals.columns = cleaned_columns
     st.markdown('Merge \'fundamentals.csv\' with \'securities.csv\', to enrich the string values in the \'fundamentals.csv\' dataset, specifically the qualitative data of each firm(E.g. industry).')
     st.code('combined = fundamentals.merge(securities, on=\'ticker_symbol\')', language='Python')
