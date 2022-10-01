@@ -34,6 +34,7 @@ cleaned_columns = [column.replace('\'', '').replace('.', '').replace(' ', '_').r
 fundamentals.columns = cleaned_columns
 prices = pd.read_csv('prices1.csv')
 securities = pd.read_csv('securities.csv')
+securities.columns = [column.replace(' ', '_').lower() for column in securities.columns]
 combined = fundamentals.merge(securities, on='ticker_symbol').copy()
 combined = combined[combined['period_ending'] == '2015-12-31']
 airlines = combined[combined['gics_sub_industry'] == 'Airlines'].copy()
