@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run Case_Study_1.py
+web: sh setup.sh && streamlit run DataQuest_Notes.py
