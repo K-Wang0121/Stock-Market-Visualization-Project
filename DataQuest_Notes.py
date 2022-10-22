@@ -58,7 +58,7 @@ with st.sidebar:
 		'Data Analysis', 'Conclusion', 'Bibliography'],
 		menu_icon = 'menu-up',
 		icons = ['bookmark-check', 'book', 'clipboard2-check', 'map', 'boxes', 'bar-chart', 
-		'check2-circle','blockquote-left'],
+		'check2-circle'],
 		default_index = 0
 		)
 
