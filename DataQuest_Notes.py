@@ -57,7 +57,7 @@ with st.sidebar:
 		options = ['Abstract', 'Background Information', 'Data Cleaning', 
 		'Data Analysis', 'Conclusion', 'Bibliography'],
 		menu_icon = 'menu-up',
-		icons = ['bookmark-check', 'book', 'clipboard2-check', 'map', 'boxes', 
+		icons = ['bookmark-check', 'book', 'check2', 'map', 'boxes', 
 		'bookmarks'],
 		default_index = 0
 		)
