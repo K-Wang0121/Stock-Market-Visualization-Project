@@ -145,7 +145,7 @@ if selected == 'Data Analysis':
     roption=col1.selectbox('Select the industry you would like to evaluate',
                            ('Airlines', 'Telecommunications Equipment', 'Casinos & Gaming', 'Financial Exchanges & Data ', 'Gold', 'Oil & Gas Drilling'))
 
-    col2.plotly_chart(px.bar(combined[combined['gics_sub_industry'] == roption]), x='ticker_symbol', y='cash_ratio', color='ticker_symbol')
+    col2.plotly_chart(px.bar(combined[combined['gics_sub_industry'] == roption], x='ticker_symbol', y='cash_ratio', color='ticker_symbol'))
     col1.markdown('As depicted from the graph above, the airline firms \'ALK\' and \'AAL\' would be our top 2 stock investments with the highest cash ratios out of the 5 airline stocks in our merged dataset, with cash ratios of 74 and 51 respectively.')
     
     
