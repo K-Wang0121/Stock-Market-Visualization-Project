@@ -284,7 +284,7 @@ if selected == 'Data Analysis':
     dfs['benchmark'] = [1, 1, 1, 1, 1]
     airlines_rps.add_traces(go.Scatter(x= dfs.bins, y=dfs.benchmark, mode = 'lines', name='Benchmark', line_color='black'))
    
-    st.plotly_graph(airlines_rps)
+    st.plotly_chart(airlines_rps)
     st.markdown('In the bar graph above, the airline firm AAL and UAL greatly outperformed the market: with an RPS of 21.10048 and 8.53573 respectively, while followed by ALK with an RPS of 2.102004. On the other hand, companies DAL and LUV underperformed the market with an RPS of -2.657386 and 0.2936191 respectively. In terms of the relative price strength of stocks, we desire the values to be as high as possible, since the greater the RPS value, the greater the margin which the firm outperformed the market, hence suggesting a relatively high return rate on investment. Therefore in this case our desired investment would be on the stock AAL.')
     
    
