@@ -241,7 +241,7 @@ if selected == 'Data Analysis':
     airline_standard_deviation.update_traces(textfont_size=15, textposition='outside',
                                          texttemplate='<b>%{y}</b>'
                                         )
-    st.plotly_graph(airline_standard_deviation)
+    st.plotly_chart(airline_standard_deviation)
     st.markdown('Unsurprisingly, as corresponding to our line graph visualization of the volatility of the closing prices of airline stocks above, the firm ALK with a standard deviation of 16.07808 ranks 1st as compared to its peer group; While the closing prices of the firms AAL, DAL, and UAL pertains similar standard deviations of around 15. Moreover, while the standard deviations of AAL, ALK, DAL, and UAL are relatively similar, there is still a gap between the standard deviation of LUV, indicating the firm\'s relative low risk of investment. Therefore in terms of volatility of the airline stocks, the firm LUV would definitely be our top stock to invest.')
    
     st.subheader('Factor 3: Relative Price Strength')
