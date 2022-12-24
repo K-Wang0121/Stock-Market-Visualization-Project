@@ -106,8 +106,15 @@ if selected == 'Background Information':
     st.markdown('\securities.csv\'')
     st.caption('Click on the expand key to zoom in')
     st.write(securities)
-    
-    
+ 
+    st.markdown('')
+    st.header('Columns to be Used')
+    st.markdown('date: the date in the format year-month-date which the stock was traded.')
+    st.markdown('symbol: unique series of letters assigned to stocks for trading purposes.')
+    st.markdown('open: the opening price of the stock for the corresponding date in the \'date\' column.')
+    st.markdown('close: the closing price of the stock for the corresponding date in the \'date\' column.')
+    st.markdown('low: the lowest trading price of the stock for the corresponding date in the \'date\' column.')
+    st.markdown('high: the highest trading price of the stock for the corresponding date in the \'date\' column.')
     
 if selected == 'Data Cleaning':
     
